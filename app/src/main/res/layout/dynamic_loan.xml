@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:layout_weight="1"
+    app:cardBackgroundColor="@color/light_gray_bar"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:gravity="center"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="S.No"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/sno"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="LoanID"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/LoanIDtv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="Branch"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:id="@+id/Branchtv"
+                
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="AccountNo"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/AccountNotv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="Memberid"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:id="@+id/Memberidtv"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="MemberName"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/MemberNametv"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="PlanType"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/PlanTypetv"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="LoanAmount"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/LoanAmounttv"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="Insurancee"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/insurance_tv"
+                
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="Processing_ch"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:id="@+id/Processing_chtv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+                
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="GrandTotal"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/GrandTotaltv"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="LoanDate"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:id="@+id/LoanDatetv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+                
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="Installments"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:id="@+id/Installmentstv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+             android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="InstAmount"
+                android:textStyle="bold"
+                android:textColor="@color/centerColor"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:id="@+id/InstAmounttv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/centerColor"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/background"
+            android:layout_height="0.1dp">
+
+
+        </View>
+        <LinearLayout
+            android:id="@+id/view_details_ll"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/rectangle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txv_transaction_credited_debited"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="6dp"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                tools:ignore="SmallSp"
+                android:textStyle="bold"
+                android:text="View Details"
+                android:layout_marginRight="6dp" />
+            <ImageView
+                android:layout_width="40dp"
+                android:tint="@color/red"
+                android:layout_gravity="center"
+                android:layout_height="25dp"
+                android:src="@drawable/down" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

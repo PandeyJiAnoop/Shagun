@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:layout_weight="1"
+    app:cardBackgroundColor="@color/light_gray_bar"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:gravity="center"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="InstalNo"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textStyle="bold"
+                android:id="@+id/InstalNotv"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="LoanID"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/LoanIDtv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="MemberId"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:id="@+id/MemberIdtv"
+
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="MemberName"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/MemberNametv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="InsDate"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/InsDatetv"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="InstAmount"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/InstAmounttv"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="Paid"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/paidtv"
+
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:text="Paid Date"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:id="@+id/PaidDatetv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textColor="@color/black"
+
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                
+                android:textStyle="bold"
+                android:text="Status"
+                android:textColor="@color/centerColor"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                
+                android:text="N/A"
+                android:textStyle="bold"
+                android:textColor="@color/centerColor"
+                android:id="@+id/statustv"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/background"
+            android:layout_height="0.1dp">
+
+
+        </View>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

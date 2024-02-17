@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <ScrollView
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/gradient"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/back_img"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="5dp"
+                        android:tint="@color/white"
+                        android:src="@drawable/back" />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Anoop Pandey"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/branch_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hi everyone! you can call me Akp"
+                    android:textColor="@color/background"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:paddingLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:tint="@color/blue"
+                    android:src="@drawable/ic_email"/>
+                <EditText
+                    android:id="@+id/email_tv"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:clickable="false" android:focusable="false"
+                    android:hint="Name.."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:tint="@color/blue"
+                    android:src="@drawable/ic_phone_android"/>
+                <EditText
+                    android:id="@+id/mobile_tv"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:hint="+91 969 6381 023"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:tint="@color/blue"
+                    android:src="@drawable/ic_person_add"/>
+                <EditText                     android:clickable="false" android:focusable="false"
+
+                    android:id="@+id/link_tv"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:background="@null"
+                    android:hint=" Address..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:tint="@color/blue"
+                    android:src="@drawable/ic_forum"/>
+                <EditText                     android:clickable="false" android:focusable="false"
+
+                    android:id="@+id/bank_tv3"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:hint="Bank Branch Name"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:tint="@color/blue"
+                    android:src="@drawable/ic_forum"/>
+                <EditText                     android:clickable="false" android:focusable="false"
+
+                    android:id="@+id/bank_tv"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:hint=" AccountNo..."/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:tint="@color/blue"
+                    android:src="@drawable/ic_forum"/>
+                <EditText                     android:clickable="false" android:focusable="false"
+
+                    android:id="@+id/bank_tv1"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:hint="Account Holder Name"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:tint="@color/blue"
+                    android:src="@drawable/ic_forum"/>
+                <EditText                     android:clickable="false" android:focusable="false"
+
+                    android:id="@+id/bank_tv2"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:hint="Bank Name "/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingLeft="35dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:tint="@color/blue"
+                    android:src="@drawable/ic_forum"/>
+                <EditText                     android:clickable="false" android:focusable="false"
+                    android:id="@+id/bank_tv4"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:hint="Ifsc Code "/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:background="@color/red"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/change_pass_ll"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/red"
+            android:layout_height="45dp"
+            android:text="Change Password !"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+        <Button android:visibility="gone"
+            android:id="@+id/update_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:text="Update Profile !"
+            android:textColor="@color/white"
+            android:background="@color/green_dark"
+            android:textSize="13dp" />
+    </LinearLayout>
+</RelativeLayout>

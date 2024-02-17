@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akp.shagun">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a_appicon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/a_appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SRSNidhi"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".AssociateDashboard.RepaymentHistory"
+            android:exported="false" />
+        <activity
+            android:name=".AssociateDashboard.LoanRePayment"
+            android:exported="false" />
+        <activity
+            android:name=".AssociateDashboard.PayRenewalHistory"
+            android:exported="false" />
+        <activity
+            android:name=".AssociateDashboard.PayRenewal"
+            android:exported="false" />
+        <activity
+            android:name=".rechargebills.ElectricityBill"
+            android:exported="false" />
+        <activity
+            android:name=".rechargebills.DTHBill"
+            android:exported="false" />
+        <activity
+            android:name=".rechargebills.InsuranceBill"
+            android:exported="false" />
+        <activity android:name=".APIServices.UPITransfer" />
+        <activity android:name=".APIServices.IFSCVerification" />
+        <activity android:name=".APIServices.Panverification" />
+        <activity android:name=".APIServices.AadharVerification" />
+        <activity android:name=".APIServices.UPIVerification" />
+        <activity android:name=".APIServices.AccountVerification" />
+        <activity android:name=".APIServices.BillPayment" />
+        <activity android:name=".dashboard.ServicesScreen" />
+        <activity android:name=".Mobile.SRSMobileRecharge" />
+        <activity android:name=".ServiceApp" />
+        <activity
+            android:name=".Banking.MoneyTransfer"
+            android:exported="false" />
+        <activity
+            android:name=".Banking.ViewReport"
+            android:exported="false" />
+        <activity
+            android:name=".Mobile.MoneyRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mobile.GetCategoryDetails"
+            android:exported="false" />
+        <activity
+            android:name=".rechargebills.ProviderList"
+            android:exported="false" />
+        <activity
+            android:name=".Mobile.MobileRecharge"
+            android:exported="false" />
+        <activity android:name=".PlanDetails.SavingAccountPlan" />
+        <activity
+            android:name=".MPIN.EnterPin"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssociateDashboard.AssociateMemberDetails"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssociateDashboard.AssociateDownline"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssociateDashboard.AssociateTotalBusiness"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssociateDashboard.AssocaitePurchasePlan"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssociateDashboard.AssociateChangePassword"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssociateDashboard.AssociateProfile"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssociateDashboard.AssocaiteHome"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MPIN.PinActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlanDetails.VirtualAccountPlan"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account.ChangePassword"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlanDetails.AllPlan"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Das_loanReq.EMIPaymentForm"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account.PolicyActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account.HelpActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account.WalletActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dashboard.LoanDetails"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dashboard.PolicyDetails"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dashboard.RecentTransaction"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dashboard.AccountOverview"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContactUs"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dashboard.RenewalPayment"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dashboard.LoanRequest"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dashboard.DepositeRequest"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WithdrawHistory"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AccountScreen"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoanDetails.LoanRecovery"
+            android:exported="true" />
+        <activity
+            android:name=".LoanDetails.LoanInsurance"
+            android:exported="true" />
+        <activity
+            android:name=".LoanDetails.LoanProcessing"
+            android:exported="true" />
+        <activity
+            android:name=".MPIN.CustomPinActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddWallet"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WalletTransferHistory"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

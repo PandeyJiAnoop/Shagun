@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Shagun.iml" filepath="$PROJECT_DIR$/.idea/modules/Shagun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shagun.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shagun.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shagun.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shagun.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shagun.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shagun.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shagun.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shagun.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/Shagun.lib.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/Shagun.lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/Shagun.lib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/Shagun.lib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/Shagun.lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/Shagun.lib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/Shagun.lib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/Shagun.lib.unitTest.iml" />
+    </modules>
+  </component>
+</project>

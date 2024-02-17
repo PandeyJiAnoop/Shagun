@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rlHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/purple_500">
+                <ImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:tint="@color/white"
+                    android:src="@drawable/back" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/ivBack"
+                    android:text="Our Services"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/bottomNavigationView"
+            android:layout_below="@+id/rlHeader"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="160sp"
+                    android:id="@+id/banner_rl">
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp">
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/pager"
+                            android:background="@drawable/b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/grey" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:text="Insurance services"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_marginLeft="10dp" />
+
+                <LinearLayout
+                    android:id="@+id/lay_buy_on_phonepe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                            <LinearLayout
+                                android:id="@+id/dash_ll"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/bg_offer_home"
+                                    android:layout_margin="5dp"
+                                    android:tint="@color/white"
+                                    android:src="@drawable/a_healthcare" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:gravity="center_horizontal"
+                                    android:text="Health++"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                            <LinearLayout
+                                android:id="@+id/welcome_letter_ll"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/bg_offer_home"
+                                    android:layout_margin="5dp"
+                                    android:tint="@color/white"
+                                    android:src="@drawable/a_motorcycle" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:gravity="center_horizontal"
+                                    android:text="Bike"
+
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black" />
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                            <LinearLayout
+                                android:id="@+id/broucher_ll"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="4dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/bg_offer_home"
+                                    android:layout_margin="5dp"
+                                    android:tint="@color/white"
+                                    android:src="@drawable/a_sedan" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:gravity="center_horizontal"
+                                    android:text="Car"
+
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/bg_offer_home"
+                                    android:layout_margin="5dp"
+                                    android:tint="@color/white"
+                                    android:src="@drawable/home" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:gravity="center_horizontal"
+                                    android:text="COVID-19"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/bg_offer_home"
+                                    android:layout_margin="5dp"
+                                    android:tint="@color/white"
+                                    android:src="@drawable/home" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:gravity="center_horizontal"
+                                    android:text="Shop"
+
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black" />
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/bg_offer_home"
+                                    android:layout_margin="5dp"
+                                    android:tint="@color/white"
+                                    android:src="@drawable/a_mobilephone" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:gravity="center_horizontal"
+                                    android:text="Mobile"
+
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/grey" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="8dp"
+                        android:padding="10dp"
+                        android:text="Recharge and Pay Bills"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="5dp"
+                            android:weightSum="4">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:id="@+id/membership_plan_ll"
+                                    android:layout_width="match_parent"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:padding="10dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:background="@drawable/bg_offer_home"
+                                        android:layout_margin="5dp"
+                                        android:tint="@color/white"
+                                        android:src="@drawable/a_mobilephone" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:textSize="12sp"
+                                        android:gravity="center_horizontal"
+                                        android:text="Mobile \nRecharge"
+                                        android:textColor="@android:color/black" />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:id="@+id/plan_validity_ll"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:padding="10dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:background="@drawable/bg_offer_home"
+                                        android:layout_margin="5dp"
+                                        android:tint="@color/white"
+                                        android:src="@drawable/home" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+
+                                        android:textSize="12sp"
+                                        android:gravity="center_horizontal"
+                                        android:text="DTH \nPlan"
+                                        android:textColor="@android:color/black" />
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:id="@+id/book_fresher_ll"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:padding="10dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:background="@drawable/bg_offer_home"
+                                        android:layout_margin="5dp"
+                                        android:tint="@color/white"
+                                        android:src="@drawable/home" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+
+                                        android:textSize="12sp"
+                                        android:gravity="center_horizontal"
+                                        android:text="Electricity \nBill"
+                                        android:textColor="@android:color/black" />
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:id="@+id/book_paid_service_ll"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:padding="10dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:background="@drawable/bg_offer_home"
+                                        android:layout_margin="5dp"
+                                        android:tint="@color/white"
+                                        android:src="@drawable/home" />
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+
+                                        android:textSize="12sp"
+                                        android:gravity="center_horizontal"
+                                        android:text="Credit card\nBill"
+                                        android:textColor="@android:color/black" />
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:id="@+id/book_due_service_ll"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:padding="10dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:background="@drawable/bg_offer_home"
+                                        android:layout_margin="5dp"
+                                        android:tint="@color/white"
+                                        android:src="@drawable/home" />
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+
+                                        android:textSize="12sp"
+                                        android:gravity="center_horizontal"
+                                        android:text="Book a \nCylinder"
+                                        android:textColor="@android:color/black" />
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:id="@+id/earn_jamison_ll"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:padding="10dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:background="@drawable/bg_offer_home"
+                                        android:layout_margin="5dp"
+                                        android:tint="@color/white"
+                                        android:src="@drawable/home" />
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+
+                                        android:textSize="12sp"
+                                        android:gravity="center_horizontal"
+                                        android:text="Fasttag \nRecharge"
+                                        android:textColor="@android:color/black" />
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:id="@+id/wallet_ll"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:padding="10dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:background="@drawable/bg_offer_home"
+                                        android:layout_margin="5dp"
+                                        android:tint="@color/white"
+                                        android:src="@drawable/home" />
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:gravity="center_horizontal"
+                                        android:text="Water \nBill "
+                                        android:textSize="12sp"
+                                        android:textColor="@android:color/black" />
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:id="@+id/print_coupan_ll"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:padding="10dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:background="@drawable/bg_offer_home"
+                                        android:layout_margin="5dp"
+                                        android:tint="@color/white"
+                                        android:src="@drawable/a_mobilephone" />
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:gravity="center_horizontal"
+                                        android:text="Postpaid \nBill"
+                                        android:textSize="12sp"
+                                        android:textColor="@android:color/black" />
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp"
+                        android:background="@color/grey" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
